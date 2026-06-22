@@ -24,6 +24,21 @@ This project helps DevOps teams:
 * Identify potential issues before downtime
 
 ---
+##  Architecture Diagram
+
+User
+  │
+  ▼
+Grafana Dashboard (3000)
+  │
+  ▼
+Prometheus (9090)
+  │
+  ▼
+Node Exporter (9100)
+  │
+  ▼
+AWS EC2 Ubuntu Server
 
 ##  Architecture
 
@@ -108,6 +123,17 @@ AWS EC2 (Ubuntu)
 
 ---
 
+## 💡 Skills Demonstrated
+
+- Linux
+- AWS EC2
+- Docker
+- Prometheus
+- Grafana
+- Monitoring & Observability
+- Networking
+- DevOps
+
 ## Project Screenshots
 ### SSH Connection to AWS EC2
 ![SSH Connection](screenshots/ssh-connection.png)
@@ -137,6 +163,14 @@ AWS EC2 (Ubuntu)
 ![Node Exporter](screenshots/grafana-node-exporter-dashboard.png)
 
 ---
+
+##  Access URLs
+
+Prometheus:
+http://18.116.231.205:9090
+
+Grafana:
+http://18.116.231.205:3000
 
 ##  Outcome
 
